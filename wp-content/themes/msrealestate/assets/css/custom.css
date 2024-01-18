@@ -1,0 +1,45 @@
+
+/*404 page css starts*/
+.not_found {
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.not_found h1 {
+    font-size: 5em;
+    margin-bottom: 0;
+    color: #e74c3c;
+}
+
+.not_found p {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
+
+.not_found a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.not_found a:hover {
+    text-decoration: underline;
+}
+
+
+/*404 page css ends*/
+
+.nav ul{
+    display: flex;
+}
+.nav ul li.current-menu-item a{
+    color: red;
+}
